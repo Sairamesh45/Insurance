@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <ul>
@@ -22,9 +24,52 @@
         </ul>
     </header>
     <main>
+        <div id="txt_below_navbar">
+            <div></div>
+            <h1>Secure Coverage for Your Life!</h1>
+            <h2>The Reliable Protection You Need</h2>
+        </div>
 
+        <div id="back_image">
+            <form action="/submit" method="post">
+                <h3>Get a Quote</h3>
+                <br>
+                <div class="row">
+                <div id="age" class="input-group">
+                    <label for="age" id="age">Age:</label>
+                    <input type="number" name="age" id="age">
+                </div>
+                <div id="sex" class="input-group">
+                    <label for="sex" id="sex">Sex:</label>
+                    <input type="text" name="sex" id="sex">
+                </div>
+                </div>
+                <div class="row">
+                <div id="bmi" class="input group">
+                    <label for="bmi" id="bmi">BMI:</label>
+                    <input type="number" name="bmi" id="bmi">
+                </div>
+                <div id="children" class="input-group">
+                    <label for="children" id="children">Children:</label>
+                    <input type="number" name="children" id="children">
+                </div>
+                </div>
+                <div class="row">
+                <div id="smoker" class="input-group">
+                    <label for="smoker" id="smoker">Smoker:</label>
+                    <input type="text" name="smoker" id="smoker">
+                </div>
+                <div id="region" class="input-group">
+                    <label for="region" id="region">Region:</label>
+                    <input type="text" name="region" id="region">
+                </div>
+                </div>
+                <button type="submit" id="submit">Get a free Quote</button>
+            </form>
+        </div>
     </main>
     <footer></footer>
     <script url="script.js"></script>
 </body>
+
 </html>
