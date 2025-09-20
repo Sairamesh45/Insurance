@@ -31,7 +31,7 @@
         </div>
 
         <div id="back_image">
-            <form action="/submit" method="post">
+            <form id="myform">
                 <h3>Get a Quote</h3>
                 <br>
                 <div class="row">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div id="bmi" class="input group">
+                    <div id="bmi" step="any"class="input group">
                         <label for="bmi" id="bmi">BMI:</label>
                         <input type="number" name="bmi" id="bmi">
                     </div>
@@ -64,7 +64,7 @@
                         <input type="text" name="region" id="region">
                     </div>
                 </div>
-                <button type="submit" id="submit">Get a free Quote</button>
+                <button type="submit" id="submit" >Get a free Quote</button>
             </form>
         </div>
         <div id="story">
@@ -118,7 +118,7 @@
 
     </main>
     <footer></footer>
-    <script url="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
